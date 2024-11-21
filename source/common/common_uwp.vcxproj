@@ -124,9 +124,9 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <AdditionalDependencies>vccorlib.lib;msvcrt.lib;vcruntime.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\..\$(IcuBinOutputDir)\icuuc$(IcuMajorVersion).dll</OutputFile>
-      <ProgramDatabaseFile>.\..\..\$(IcuLibOutputDir)\icuuc.pdb</ProgramDatabaseFile>
-      <ImportLibrary>..\..\$(IcuLibOutputDir)\icuuc.lib</ImportLibrary>
+      <OutputFile>..\..\binARM64uwp\icuuc$(IcuMajorVersion).dll</OutputFile>
+      <ProgramDatabaseFile>.\..\..\libARM64uwp\icuuc.pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\..\libARM64uwp\icuuc.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)'=='Debug'">
